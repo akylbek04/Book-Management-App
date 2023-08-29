@@ -1,0 +1,16 @@
+/* .App {
+  border: 1px solid red;
+} */
+
+#results-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  /* padding: 10px; */
+  /* text-align: center; */
+}
