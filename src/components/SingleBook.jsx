@@ -1,9 +1,11 @@
 import { Button } from "reactstrap";
+import '../App.css'
+
 
 export const SingleBook = ({ title, author, isbn, img, toggle, id }) => {
   return (
     // <div className="border p-1 text-center">
-    <div className="recipe-card rounded p-1 text-center">
+    <div className="book-card rounded p-1 text-center">
       <img className="img-fluid mb-2" src={img} alt="" />
       <p>
         Title: <b>{title}</b>

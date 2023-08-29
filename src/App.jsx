@@ -18,10 +18,6 @@ function App() {
         <Route path="/dashboard" element={<Dashboard {...values} />}></Route>
         <Route path="*" element={<ErrorPage />}></Route>
       </Routes>
-      {/* {users.length > 0 &&
-        users.map((user) => {
-          return <div key={user.id}>{user.author}</div>;
-        })} */}
     </div>
   );
 }
